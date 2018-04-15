@@ -15,6 +15,7 @@
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  animation: fadeInBottom 1s ease-in;
 }
 
 @media (min-width: 992px) {

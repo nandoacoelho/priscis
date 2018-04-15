@@ -11,3 +11,31 @@
   --font-playfair: "Playfair Display", serif;
   --font-cutive: "Cutive Mono", monospace;
 }
+
+@keyframes fadeInTop {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInBottom {
+  0% {
+    transform: perspective(300px) translateY(90px) rotateX(10deg);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0) rotate(0) perspective(0);
+    opacity: 1;
+  }
+}

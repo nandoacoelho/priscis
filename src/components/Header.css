@@ -14,6 +14,7 @@
   transition: 0.3s ease-in-out;
   visibility: hidden;
   z-index: -1;
+  animation: fadeInTop 0.8s;
 }
 
 .header-nav.is-active {
@@ -45,6 +46,8 @@
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.25s ease-in;
+  animation: fadeInTop 0.8s;
+  animation-delay: 0.3s;
 }
 
 .header-logo:hover {
