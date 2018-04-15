@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-links {
+  display: inline;
+  flex: none;
+  list-style: none;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.header-link {
+  display: inline;
+}
+.header-logo {
+  font-size: 4em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
