@@ -136,6 +136,10 @@ body,
   width: 100%;
 }
 
-:root {
-  font-size: 16px;
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }

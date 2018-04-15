@@ -1,6 +1,7 @@
 {
-  "header.linkWho": "quem?",
-  "header.linkWhere": "onde?",
-  "header.linkHow": "como?",
+  "header.linkWork": "projetos",
+  "header.linkContact": "contato",
+  "header.linkAbout": "sobre mim",
+  "header.logoTitle": "prscis",
   "hero.title": "profissa foda demais"
 }

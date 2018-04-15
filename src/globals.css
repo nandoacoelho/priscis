@@ -1,0 +1,13 @@
+:root {
+  /* -- root size -- */
+  font-size: 16px;
+
+  /* -- colors -- */
+  --grey: #d8d8d8;
+  --white: #ffffff;
+  --near-black: #999999;
+
+  /* -- fonts -- */
+  --font-playfair: "Playfair Display", serif;
+  --font-cutive: "Cutive Mono", monospace;
+}

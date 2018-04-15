@@ -1,5 +1,6 @@
 .hero {
   align-items: center;
+  background: var(--grey);
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -7,5 +8,18 @@
 }
 
 .hero-title {
-  font-size: 64px;
+  color: var(--white);
+  font-family: var(--font-playfair);
+  font-size: 3em;
+  margin: 1em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  .hero-title {
+    font-size: 4em;
+    margin: 0em;
+  }
 }
