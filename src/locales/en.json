@@ -3,5 +3,16 @@
   "header.linkContact": "contact",
   "header.linkAbout": "about",
   "header.logoTitle": "prscis",
-  "hero.title": "profissa very cool"
+  "hero.title": "profissa very cool",
+  "bio.title": "A title",
+  "bio.paragraph":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit pharetra lacus eu finibus. Vestibulum dapibus mauris vitae dolor accumsan, vitae vestibulum nibh eleifend. Duis dolor ligula, eleifend non posuere quis, convallis ac nisi. Curabitur lacus ligula, convallis nec eros at, suscipit convallis velit.",
+  "linkSeeMore": "see more",
+  "selectedWork.title": "Selected works",
+  "selectedWork.moreWork": "See more works",
+  "work.exampleTitle": "An awesome title",
+  "work.exampleSubtitle":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "work.exampleSrc": "",
+  "work.exampleAlt": ""
 }

@@ -3,5 +3,16 @@
   "header.linkContact": "contato",
   "header.linkAbout": "sobre mim",
   "header.logoTitle": "prscis",
-  "hero.title": "profissa foda demais"
+  "hero.title": "profissa foda demais",
+  "bio.title": "Um título",
+  "bio.paragraph":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit pharetra lacus eu finibus. Vestibulum dapibus mauris vitae dolor accumsan, vitae vestibulum nibh eleifend. Duis dolor ligula, eleifend non posuere quis, convallis ac nisi. Curabitur lacus ligula, convallis nec eros at, suscipit convallis velit.",
+  "linkSeeMore": "ver mais",
+  "selectedWork.title": "Projetos selecionados",
+  "selectedWork.moreWork": "Veja mais trabalhos",
+  "work.exampleTitle": "An awesome title",
+  "work.exampleSubtitle":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "work.exampleSrc": "",
+  "work.exampleAlt": ""
 }

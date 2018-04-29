@@ -10,11 +10,11 @@
 }
 
 .header-nav {
+  animation: fadeInTop 0.8s forwards;
   opacity: 0;
   transition: 0.3s ease-in-out;
   visibility: hidden;
   z-index: -1;
-  animation: fadeInTop 0.8s;
 }
 
 .header-nav.is-active {
@@ -39,15 +39,16 @@
 }
 
 .header-logo {
+  animation: fadeInTop 0.8s forwards;
+  animation-delay: 0.3s;
   color: var(--white);
   font-family: var(--font-playfair);
   font-size: 3em;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  opacity: 0;
   transition: 0.25s ease-in;
-  animation: fadeInTop 0.8s;
-  animation-delay: 0.3s;
 }
 
 .header-logo:hover {

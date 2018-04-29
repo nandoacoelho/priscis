@@ -5,7 +5,7 @@
   /* -- colors -- */
   --grey: #d8d8d8;
   --white: #ffffff;
-  --near-black: #999999;
+  --near-black: #333333;
 
   /* -- fonts -- */
   --font-playfair: "Playfair Display", serif;
@@ -25,6 +25,28 @@
 }
 
 @keyframes fadeInBottom {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInBottomPerspective {
   0% {
     transform: perspective(300px) translateY(90px) rotateX(10deg);
     opacity: 0;
@@ -38,4 +60,16 @@
     transform: translateY(0) rotate(0) perspective(0);
     opacity: 1;
   }
+}
+
+.fadeInBottomPerspective {
+  animation: fadeInBottomPerspective 1s forwards;
+}
+
+.fadeIn {
+  animation: fadeIn 1s forwards;
+}
+
+.fadeInBottom {
+  animation: fadeInBottom 1s forwards;
 }
